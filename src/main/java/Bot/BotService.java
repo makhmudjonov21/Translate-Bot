@@ -727,8 +727,8 @@ public class BotService {
         SendDocument sendDocument = new SendDocument();
         sendDocument.setChatId(tgUser.getChatId());
         XSSFWorkbook workbook = new XSSFWorkbook();
-        File file = new File("E:\\PDP\\Java\\DictionaryBot\\src\\main\\resources\\usersList.xlsx");
-        FileOutputStream userListXlsx = new FileOutputStream("E:\\PDP\\Java\\DictionaryBot\\src\\main\\resources\\usersList.xlsx");
+        File file = new File("E:\\PDP\\Java\\GITHUB_PROJECTS\\DictionaryBot\\Translate-Bot\\src\\main\\resources\\usersList.xlsx");
+        FileOutputStream userListXlsx = new FileOutputStream("E:\\PDP\\Java\\GITHUB_PROJECTS\\DictionaryBot\\Translate-Bot\\src\\main\\resources\\usersList.xlsx");
         XSSFSheet sheet = workbook.createSheet();
         XSSFRow row = sheet.createRow(0);
         XSSFCell cell = row.createCell(0);
